@@ -1,16 +1,20 @@
 import Image from "next/image";
-import { Inter } from "next/font/google";
 import Link from "next/link";
+import Navbar from "./navbar";
+import HeroSection from "./hero";
+import ProjectSection from "./projectSection"
+import Footer from "./footer";
 
-const inter = Inter({ subsets: ["latin"] });
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fas } from "@fortawesome/free-solid-svg-icons";
 
 export default function Home() {
   return (
-    <main className="bg-red-300">
-      <Link className="bg-teal-500" href={"/about"}>
-        Go to the about
-      </Link>
-      <h1>Home</h1>
+    <main className="bg-white text-gray-900 ">
+      <Navbar />
+      <HeroSection />
+      <ProjectSection />
+      <Footer/>
     </main>
   );
 }
