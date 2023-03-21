@@ -7,38 +7,38 @@ import Link from "next/link";
 
 function HeroSection() {
   return (
-    <section className=" container relative margin-top-40 px-4 max-w-xl sm: md:max-w-2xl lg:max-w-4xl mx-auto    ">
-      <div className=" flex flex-col md:flex-row mx-auto justify-between">
-        <div className="pb-5 text-gray-500 mr-2 lg:mr-4">
+    <section className=" margin-top-40 sm: container relative mx-auto max-w-xl px-4 md:max-w-2xl lg:max-w-4xl    ">
+      <div className=" mx-auto flex flex-col justify-between md:flex-row">
+        <div className="mr-2 pb-5 text-gray-500 lg:mr-4">
           <h6 className="subheader margin-bottom-8 text-xs font-semibold">
             Hi, nice to meet you!
           </h6>
-          <h1 className="text-gray-700 text-4xl font-bold mb-4">
+          <h1 className="mb-4 text-4xl font-bold text-gray-700">
             I'm Jaeheon Kim
           </h1>
           <h4 className="text-xl leading-8  ">
             Web developer from South Korea creating beautiful, responsive
             websites for a better user experience.
           </h4>
-          <h4 className="text-xl leading-8 mb-4">
+          <h4 className="mb-4 text-xl leading-8">
             I am currently learning back-end web development.
           </h4>
           <Link
-            className="btn-primary group py-4 text-emerald-700 font-bold"
+            className="btn-primary group py-4 font-bold text-emerald-700"
             href={"/about"}
           >
             Get to know me
             <ArrowRightSolid
               width={16}
               alt="Linkedin logo"
-              className=" align-text-top inline ml-2 group-hover:translate-x-1 duration-500 ease-in-out"
+              className=" ml-2 inline align-text-top duration-500 ease-in-out group-hover:translate-x-1"
             />
           </Link>
         </div>
-        <div className=" flex justify-center flex-col md:max-w-[50%]">
+        <div className=" flex flex-col justify-center md:max-w-[50%]">
           <Image
             src={ProfilePicture}
-            className=" rounded-2xl max-w-full"
+            className=" max-w-full rounded-2xl"
             alt="picture of Jaeheon kim"
             // width={400}
           />

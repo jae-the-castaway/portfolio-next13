@@ -9,29 +9,29 @@ import Link from "next/link";
 function Footer() {
   return (
     <section>
-      <div className="flex  px-4 py-5 relative flex-wrap md:flex-nowrap justify-start pb-20">
+      <div className="relative  flex flex-wrap justify-start px-4 py-5 pb-20 md:flex-nowrap">
         <Link href={"/"} className="min-w-[160px]">
-          <div className="flex profile cursor-pointer group/profile mb-4">
+          <div className="profile group/profile mb-4 flex cursor-pointer">
             <div className=" pr-2">
               <Image
                 src="/profile.jpg"
                 height={40}
                 width={40}
                 alt="Picture of author"
-                className=" rounded-full group-hover/profile:scale-110 transition"
+                className=" rounded-full transition group-hover/profile:scale-110"
               />
             </div>
             <div className="flex flex-col justify-end ">
-              <h6 className="text-gray-700 font-bold">Jaeheon Kim</h6>
-              <p className="text-sm text-gray-500 -top-1 relative">
+              <h6 className="font-bold text-gray-700">Jaeheon Kim</h6>
+              <p className="relative -top-1 text-sm text-gray-500">
                 Web developer
               </p>
             </div>
           </div>
         </Link>
-        <div className="socials flex gap-3 ml-12 mr-12 ">
+        <div className="socials ml-12 mr-12 flex gap-3 ">
           <a
-            className="group/github w-8 bg-gray-200 rounded-full h-8 flex items-center justify-center "
+            className="group/github flex h-8 w-8 items-center justify-center rounded-full bg-gray-200 "
             href="https://github.com/jae-the-castaway"
             target={"_blank"}
           >
@@ -42,7 +42,7 @@ function Footer() {
             />
           </a>
           <a
-            className="group/mail w-8 bg-gray-200 rounded-full h-8 flex items-center justify-center "
+            className="group/mail flex h-8 w-8 items-center justify-center rounded-full bg-gray-200 "
             href="mailto:jaeheonkim95@gmail.com"
             target={"_blank"}
           >
@@ -53,7 +53,7 @@ function Footer() {
             />
           </a>
           <a
-            className="group/linkedin w-8 bg-gray-200 rounded-full h-8 flex items-center justify-center "
+            className="group/linkedin flex h-8 w-8 items-center justify-center rounded-full bg-gray-200 "
             href="https://www.linkedin.com/in/jae-the-castaway/"
             target={"_blank"}
           >
@@ -64,20 +64,20 @@ function Footer() {
             />
           </a>
         </div>
-        <div className=" md:max-w-sm max-w-xl ">
+        <div className=" max-w-xl md:max-w-sm ">
           <p className="pb-6 text-sm text-gray-500">
             As enthousiastic as I am? Love to build something great together?
             Shoot me an e-mail or reach out to me on my socials.
           </p>
           <a
             href="mailto:jaeheonkim95@gmail.com"
-            className=" btn-center py-4 text-emerald-700 font-bold pl-1"
+            className=" btn-center py-4 pl-1 font-bold text-emerald-700"
           >
             jaeheonkim95@gmail.com
           </a>
         </div>
       </div>
-      <p className="text-sm text-gray-500 pb-6 pl-5">
+      <p className="pb-6 pl-5 text-sm text-gray-500">
         Copyright 2023, yours truly
       </p>
     </section>
