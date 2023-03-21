@@ -9,7 +9,7 @@ import Link from "next/link";
 function Footer() {
   return (
     <section>
-      <div className="relative  flex flex-wrap justify-start px-4 py-5 pb-20 md:flex-nowrap">
+      <div className="relative  flex flex-wrap justify-start px-4 pt-20  pb-20 md:flex-nowrap">
         <Link href={"/"} className="min-w-[160px]">
           <div className="profile group/profile mb-4 flex cursor-pointer">
             <div className=" pr-2">
