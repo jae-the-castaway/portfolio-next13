@@ -16,8 +16,25 @@
   .btn-primary:hover {
     background-size: 100% 0.15em;
   }
+  .btn-center:hover {
+    background-size: 100% 0.15em;
+  }
 
   .btn-center {
+    text-decoration: none;
+    color: #222;
+    background: linear-gradient(currentColor, currentColor) bottom / 0em 0.15em
+      no-repeat;
+    transition: 1s background-size;
+    background-position: center 2.5em;
+  }
+
+  .btn-project {
+    text-decoration: none;
+    color: #222;
+    background: linear-gradient(currentColor, currentColor) bottom / 0em 0.15em
+      no-repeat;
+    transition: 1s background-size;
     background-position: center 2.5em;
   }
 

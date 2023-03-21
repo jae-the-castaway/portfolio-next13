@@ -71,7 +71,7 @@ function Footer() {
           </p>
           <a
             href="mailto:jaeheonkim95@gmail.com"
-            className="btn-primary btn-center py-4 text-emerald-700 font-bold pl-1"
+            className=" btn-center py-4 text-emerald-700 font-bold pl-1"
           >
             jaeheonkim95@gmail.com
           </a>
