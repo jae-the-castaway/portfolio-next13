@@ -9,6 +9,15 @@ const montserrat = Montserrat({
 export const metadata = {
   title: "Jaeheon Kim - Web Developer ",
   description: "portfolio website of Jaeheon Kim - Web Developer",
+  // icons: {
+  //   icon: '/icon.png',
+  //   shortcut: '/shortcut-icon.png',
+  //   apple: '/apple-icon.png',
+  //   other: {
+  //     rel: 'apple-touch-icon-precomposed',
+  //     url: '/apple-touch-icon-precomposed.png',
+  //   },
+  // },
 };
 
 export default function RootLayout({
