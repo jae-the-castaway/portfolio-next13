@@ -37,11 +37,7 @@ function Footer() {
               href="https://github.com/jae-the-castaway"
               target={"_blank"}
             >
-              <GithubLogo
-                className="group-hover/github:scale-110"
-                width={16}
-                alt="Github logo "
-              />
+              <GithubLogo className="group-hover/github:scale-110" width={16} />
             </a>
             <a
               className="group/mail flex h-8 w-8 items-center justify-center rounded-full bg-gray-200 "
@@ -50,7 +46,6 @@ function Footer() {
             >
               <PaperplaneLogo
                 width={16}
-                alt=" Paperplane logo for e-mail"
                 className="group-hover/mail:scale-110"
               />
             </a>
@@ -61,7 +56,6 @@ function Footer() {
             >
               <LinkedinLogo
                 width={16}
-                alt="Linkedin logo"
                 className="group-hover/linkedin:scale-110"
               />
             </a>
@@ -70,8 +64,8 @@ function Footer() {
 
         <div className=" max-w-xl md:max-w-sm ">
           <p className="pb-6 text-sm text-gray-500">
-            As enthousiastic as I am? Love to build something great together?
-            Shoot me an e-mail or reach out to me on my socials.
+            Love to build some cool projects together? or just want to have a
+            coffee chat? Send me an e-mail or reach out to me on my socials.
           </p>
           <a
             href="mailto:jaeheonkim95@gmail.com"

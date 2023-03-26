@@ -2,6 +2,7 @@
 // "use server"
 import Image from "next/image";
 import ArrowUpRight from "../public/arrow-up-right.svg";
+import AngleRight from "../public/angle-right-solid.svg";
 
 function HeroSection() {
   return (
@@ -15,7 +16,7 @@ function HeroSection() {
                 <h2 className="text-2xl font-bold text-gray-100">
                   Seenit - Simple Reddit clone app
                 </h2>
-                <p className="py-6 text-gray-100">
+                <p className="py-6 text-gray-400">
                   Type your favorite subreddit! Simple Reddit clone app only
                   fetching images and videos from any subreddit. <br /> It's
                   built with React and Tailwind.
@@ -25,8 +26,11 @@ function HeroSection() {
                 </div>
                 <ArrowUpRight
                   width={16}
-                  alt="arrow-up-right icon"
                   className="  ml-2 inline duration-500 ease-in-out group-hover/title:translate-x-1"
+                />
+                <AngleRight
+                  width={16}
+                  className=" ml-2 inline duration-500 ease-in-out group-hover/title:translate-x-1"
                 />
               </a>
             </div>
@@ -51,7 +55,7 @@ function HeroSection() {
                 <h2 className="text-2xl font-bold text-gray-100">
                   Responsive IP address tracker
                 </h2>
-                <p className="py-6 text-gray-100">
+                <p className="py-6 text-gray-400">
                   Search for any IP addresses and see the key information and
                   location. <br />
                   It's built with React and Styled Components.
@@ -61,7 +65,6 @@ function HeroSection() {
                 </div>
                 <ArrowUpRight
                   width={16}
-                  alt="arrow-up-right icon"
                   className="  ml-2 inline duration-500 ease-in-out group-hover/title:translate-x-1"
                 />
               </a>
@@ -87,7 +90,7 @@ function HeroSection() {
                 <h2 className="text-2xl font-bold text-gray-100">
                   Responsive Calculator with Multiple Themes
                 </h2>
-                <p className="py-6 text-gray-100">
+                <p className="py-6 text-gray-400">
                   It's a calculator app with multiple themes using pure CSS and
                   JavaScript.
                 </p>
@@ -96,7 +99,6 @@ function HeroSection() {
                 </div>
                 <ArrowUpRight
                   width={16}
-                  alt="arrow-up-right icon"
                   className="  ml-2 inline duration-500 ease-in-out group-hover/title:translate-x-1"
                 />
               </a>

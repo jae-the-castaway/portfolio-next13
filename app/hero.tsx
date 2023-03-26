@@ -7,7 +7,7 @@ import Link from "next/link";
 
 function HeroSection() {
   return (
-    <section className=" margin-top-40 sm: container relative mx-auto max-w-xl px-4 md:max-w-2xl lg:max-w-4xl    ">
+    <section className=" container relative mx-auto max-w-xl px-4 md:max-w-2xl lg:max-w-4xl    ">
       <div className=" mx-auto flex flex-col justify-between md:flex-row">
         <div className="mr-2 pb-5 text-gray-500 lg:mr-4">
           <h6 className="subheader margin-bottom-8 text-xs font-semibold">
@@ -30,7 +30,6 @@ function HeroSection() {
             Get to know me
             <ArrowRightSolid
               width={16}
-              alt="Linkedin logo"
               className=" ml-2 inline align-text-top duration-500 ease-in-out group-hover:translate-x-1"
             />
           </Link>

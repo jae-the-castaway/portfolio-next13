@@ -39,7 +39,6 @@ function Navbar() {
             <GithubLogo
               className="transition group-hover/github:scale-110"
               width={16}
-              alt="Github logo "
             />
           </a>
           <a
@@ -49,7 +48,6 @@ function Navbar() {
           >
             <PaperplaneLogo
               width={16}
-              alt=" Paperplane logo for e-mail"
               className="transition group-hover/mail:scale-110"
             />
           </a>
@@ -60,7 +58,6 @@ function Navbar() {
           >
             <LinkedinLogo
               width={16}
-              alt="Linkedin logo"
               className="transition group-hover/linkedin:scale-110"
             />
           </a>
