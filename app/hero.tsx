@@ -39,7 +39,6 @@ function HeroSection() {
             src={ProfilePicture}
             className=" max-w-full rounded-2xl"
             alt="picture of Jaeheon kim"
-            // width={400}
           />
         </div>
       </div>

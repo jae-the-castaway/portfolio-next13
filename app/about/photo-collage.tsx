@@ -4,41 +4,41 @@ function PhotoCollage() {
   return (
     <div className="mx-auto mt-6 px-4">
       <div className="">
-        <div className="mx-auto flex h-[900px] max-w-7xl flex-col justify-center gap-3 md:flex-row">
-          <div className="flex flex-col  gap-3">
-            <div className=" h-64 w-full overflow-hidden   rounded-t-3xl md:h-auto ">
+        <div className="mx-auto flex h-[900px] max-w-7xl flex-col justify-center gap-3 lg:flex-row">
+          <div className="flex flex-col  justify-center gap-3">
+            <div className=" h-64 w-full overflow-hidden rounded-t-3xl md:h-80 lg:h-auto  lg:rounded-tr-none">
               <Image
-                className=" relative w-full object-cover "
+                className=" relative w-full -top-[200px] lg:-top-[0px] object-cover "
                 src={"/about-me/1.jpg"}
                 alt="placeholder for image"
                 width={1000}
                 height={1000}
               />
             </div>
-            <div className=" h-64 overflow-hidden md:h-auto">
+            <div className=" h-64 overflow-hidden  md:h-80 lg:h-auto lg:rounded-bl-3xl">
               <Image
-                className=" relative  w-full object-cover"
-                src={"/about-me/3.jpg"}
+                className=" relative  w-full -top-[50px] object-cover"
+                src={"/about-me/soldering.jpeg"}
                 alt="placeholder for image"
                 width={1000}
                 height={1000}
               />
             </div>
           </div>
-          <div className="flex flex-col gap-3 md:h-auto">
-            <div className=" h-64 overflow-hidden ">
+          <div className="flex flex-col justify-center gap-3 lg:h-auto">
+            <div className=" h-64 overflow-hidden  md:h-80  lg:rounded-tr-3xl">
               <Image
-                className=" relative w-full object-cover "
-                src={"/about-me/2.jpg"}
+                className=" relative w-full -top-[250px] sm:-top-[350px] md:-top-[450px] lg:-top-[350px] object-cover "
+                src={"/about-me/couple.jpeg"}
                 alt="placeholder for image"
                 width={1000}
                 height={1000}
               />
             </div>{" "}
-            <div className=" md:round h-64 overflow-hidden rounded-b-3xl md:h-auto ">
+            <div className=" lg:round h-64 overflow-hidden rounded-b-3xl md:h-80 lg:h-auto lg:rounded-bl-none ">
               <Image
-                className=" relative  w-full object-cover "
-                src={"/about-me/4.jpeg"}
+                className="-top-[250px] sm:-top-[350px] md:-top-[450px] lg:-top-[0px] relative  w-full object-cover "
+                src={"/about-me/hiking-with-camera.jpeg"}
                 alt="placeholder for image"
                 width={1000}
                 height={1000}
