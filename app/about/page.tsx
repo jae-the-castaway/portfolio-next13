@@ -2,8 +2,6 @@ import { Inter } from "next/font/google";
 import Navbar from "../navbar";
 import Footer from "../footer";
 import PhotoCollage from "./photo-collage";
-
-import Image from "next/image";
 import AboutMe from "./about-me";
 import OnTheSide from "./on-the-side";
 

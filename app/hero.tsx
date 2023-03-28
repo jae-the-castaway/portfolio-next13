@@ -1,5 +1,3 @@
-// "use client";
-// "use server"
 import Image from "next/image";
 import ProfilePicture from "../public/profile.jpg";
 import ArrowRightSolid from "../public/arrow-right-solid.svg";

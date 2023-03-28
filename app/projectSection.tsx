@@ -1,8 +1,6 @@
-// "use client";
-// "use server"
+
 import Image from "next/image";
 import ArrowUpRight from "../public/arrow-up-right.svg";
-import AngleRight from "../public/angle-right-solid.svg";
 
 function HeroSection() {
   return (
@@ -12,7 +10,7 @@ function HeroSection() {
         <div className=" mx-auto min-h-[500px] max-w-5xl rounded-2xl bg-gray-900">
           <div className="group flex min-h-[500px]  flex-col lg:flex-row">
             <div className=" group/title grow-0 cursor-pointer px-6 pt-8 pb-6 lg:max-w-sm lg:pl-12">
-              <a href="https://seenit-reddit-clone.netlify.app">
+              <a href="https://seenit-reddit-clone.netlify.app" target="_blank">
                 <h2 className="text-2xl font-bold text-gray-100">
                   Seenit - Simple Reddit clone app
                 </h2>
@@ -27,10 +25,6 @@ function HeroSection() {
                 <ArrowUpRight
                   width={16}
                   className="  ml-2 inline duration-500 ease-in-out group-hover/title:translate-x-1"
-                />
-                <AngleRight
-                  width={16}
-                  className=" ml-2 inline duration-500 ease-in-out group-hover/title:translate-x-1"
                 />
               </a>
             </div>
@@ -51,7 +45,7 @@ function HeroSection() {
         <div className=" mx-auto min-h-[500px] max-w-5xl rounded-2xl bg-gray-900">
           <div className="group flex min-h-[500px]  flex-col lg:flex-row">
             <div className=" group/title grow-0 cursor-pointer px-6 pt-8 pb-6 lg:max-w-sm lg:pl-12">
-              <a href="https://seenit-reddit-clone.netlify.app">
+              <a href="https://jae-the-castaway-ip-tracker.netlify.app" target="_blank">
                 <h2 className="text-2xl font-bold text-gray-100">
                   Responsive IP address tracker
                 </h2>
@@ -86,7 +80,7 @@ function HeroSection() {
         <div className=" mx-auto min-h-[500px] max-w-5xl rounded-2xl bg-gray-900">
           <div className="group flex min-h-[500px]  flex-col lg:flex-row">
             <div className=" group/title grow-0 cursor-pointer px-6 pt-8 pb-6 lg:max-w-sm lg:pl-12">
-              <a href="https://seenit-reddit-clone.netlify.app">
+              <a href="https://jaeheonkim-calculator.netlify.app" target="_blank">
                 <h2 className="text-2xl font-bold text-gray-100">
                   Responsive Calculator with Multiple Themes
                 </h2>

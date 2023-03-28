@@ -86,7 +86,7 @@ function OnTheSide() {
         <div className=" aspect-square w-full flex-auto overflow-hidden rounded-3xl lg:w-1/2  ">
           <Image
             src={Hiking}
-            className=" w-full bg-cover"
+            className=" w-full bg-cover relative -top-[150px]"
             alt="??change this later"
           />
         </div>
