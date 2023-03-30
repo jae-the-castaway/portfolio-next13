@@ -17,9 +17,9 @@ function AboutMe() {
             My process starts with a thorough understanding of the project
             requirements, target audience, and business objectives. Then, I
             create a wireframe and mockup that outlines the site's structure,
-            layout, and user flow. and then, I use my coding
-            skills to bring the site to life, using HTML, CSS, JavaScript, and
-            other web technologies as needed.
+            layout, and user flow. and then, I use my coding skills to bring the
+            site to life, using HTML, CSS, JavaScript, and other web
+            technologies as needed.
           </h4>
         </div>
         <div className="mt-14">
