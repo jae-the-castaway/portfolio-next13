@@ -34,7 +34,9 @@ function HeroSection() {
         </div>
         <div className=" flex flex-col justify-center md:max-w-[50%]">
           <Image
-            src={ProfilePicture}
+            src={"/profile.jpg"}
+            width={1000}
+            height={0}
             className=" max-w-full rounded-2xl"
             alt="picture of Jaeheon kim"
           />

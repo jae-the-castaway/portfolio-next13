@@ -1,9 +1,4 @@
 import Image from "next/image";
-import YouTubeChannel from "../../public/about-me/youtube-channel.jpg";
-import Hiking from "../../public/about-me/hiking.jpeg";
-import Walking from "../../public/about-me/walking.png";
-import Playing from "../../public/about-me/playing-video-games.jpg";
-
 
 function OnTheSide() {
   return (
@@ -37,9 +32,11 @@ function OnTheSide() {
         </div>
         <div className=" aspect-square w-full flex-auto overflow-hidden rounded-3xl lg:w-1/2  ">
           <Image
-            src={YouTubeChannel}
+            src="/about-me/youtube-channel.jpg"
             className=" w-full bg-cover"
-            alt="??change this later"
+            alt="Maleea and Jae with plants on a porch"
+            width={500}
+            height={500}
           />
         </div>
       </div>
@@ -63,9 +60,11 @@ function OnTheSide() {
         </div>
         <div className=" aspect-square w-full flex-auto overflow-hidden rounded-3xl lg:w-1/2  ">
           <Image
-            src={Walking}
+            src="/about-me/walking.png"
             className=" w-full bg-cover"
-            alt="??change this later"
+            alt="a book, Walkable City"
+            width={500}
+            height={500}
           />
         </div>
       </div>
@@ -85,9 +84,11 @@ function OnTheSide() {
         </div>
         <div className=" aspect-square w-full flex-auto overflow-hidden rounded-3xl lg:w-1/2  ">
           <Image
-            src={Hiking}
-            className=" w-full bg-cover relative -top-[150px]"
-            alt="??change this later"
+            src="/about-me/hiking.jpeg"
+            className=" relative -top-[150px] w-full bg-cover"
+            alt="Maleea and Jae in Red River Gorge"
+            width={500}
+            height={500}
           />
         </div>
       </div>
@@ -112,9 +113,11 @@ function OnTheSide() {
         </div>
         <div className=" aspect-square w-full flex-auto overflow-hidden rounded-3xl lg:w-1/2  ">
           <Image
-            src={Playing}
+            src="/about-me/playing-video-games.jpg"
             className=" w-full bg-cover"
-            alt="??change this later"
+            alt="a picture of PlayStation 5 and Nintendo Switch"
+            width={500}
+            height={500}
           />
         </div>
       </div>

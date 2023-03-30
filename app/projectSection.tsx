@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 import ArrowUpRight from "../public/arrow-up-right.svg";
 
@@ -45,7 +44,10 @@ function HeroSection() {
         <div className=" mx-auto min-h-[500px] max-w-5xl rounded-2xl bg-gray-900">
           <div className="group flex min-h-[500px]  flex-col lg:flex-row">
             <div className=" group/title grow-0 cursor-pointer px-6 pt-8 pb-6 lg:max-w-sm lg:pl-12">
-              <a href="https://jae-the-castaway-ip-tracker.netlify.app" target="_blank">
+              <a
+                href="https://jae-the-castaway-ip-tracker.netlify.app"
+                target="_blank"
+              >
                 <h2 className="text-2xl font-bold text-gray-100">
                   Responsive IP address tracker
                 </h2>
@@ -80,7 +82,10 @@ function HeroSection() {
         <div className=" mx-auto min-h-[500px] max-w-5xl rounded-2xl bg-gray-900">
           <div className="group flex min-h-[500px]  flex-col lg:flex-row">
             <div className=" group/title grow-0 cursor-pointer px-6 pt-8 pb-6 lg:max-w-sm lg:pl-12">
-              <a href="https://jaeheonkim-calculator.netlify.app" target="_blank">
+              <a
+                href="https://jaeheonkim-calculator.netlify.app"
+                target="_blank"
+              >
                 <h2 className="text-2xl font-bold text-gray-100">
                   Responsive Calculator with Multiple Themes
                 </h2>
