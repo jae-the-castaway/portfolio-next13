@@ -8,8 +8,8 @@ function PhotoCollage() {
           <div className="flex flex-col  justify-center gap-3">
             <div className=" h-64 w-full overflow-hidden rounded-t-3xl md:h-80 lg:h-auto  lg:rounded-tr-none">
               <Image
-                className=" relative w-full -top-[200px] lg:-top-[0px] object-cover "
-                src={"/about-me/1.jpg"}
+                className=" relative -top-[200px] w-full object-cover lg:-top-[0px] "
+                src={"/about-me/profile.jpg"}
                 alt="placeholder for image"
                 width={1000}
                 height={1000}
@@ -17,7 +17,7 @@ function PhotoCollage() {
             </div>
             <div className=" h-64 overflow-hidden  md:h-80 lg:h-auto lg:rounded-bl-3xl">
               <Image
-                className=" relative  w-full -top-[50px] object-cover"
+                className=" relative  -top-[50px] w-full object-cover"
                 src={"/about-me/soldering.jpeg"}
                 alt="placeholder for image"
                 width={1000}
@@ -28,7 +28,7 @@ function PhotoCollage() {
           <div className="flex flex-col justify-center gap-3 lg:h-auto">
             <div className=" h-64 overflow-hidden  md:h-80  lg:rounded-tr-3xl">
               <Image
-                className=" relative w-full -top-[250px] sm:-top-[350px] md:-top-[450px] lg:-top-[350px] object-cover "
+                className=" relative -top-[250px] w-full object-cover sm:-top-[350px] md:-top-[450px] lg:-top-[350px] "
                 src={"/about-me/couple.jpeg"}
                 alt="placeholder for image"
                 width={1000}
@@ -37,7 +37,7 @@ function PhotoCollage() {
             </div>{" "}
             <div className=" lg:round h-64 overflow-hidden rounded-b-3xl md:h-80 lg:h-auto lg:rounded-bl-none ">
               <Image
-                className="-top-[250px] sm:-top-[350px] md:-top-[450px] lg:-top-[0px] relative  w-full object-cover "
+                className="relative -top-[250px] w-full object-cover sm:-top-[350px]  md:-top-[450px] lg:-top-[0px] "
                 src={"/about-me/hiking-with-camera.jpeg"}
                 alt="placeholder for image"
                 width={1000}
