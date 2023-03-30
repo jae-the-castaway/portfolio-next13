@@ -9,7 +9,7 @@ function PhotoCollage() {
             <div className=" h-64 w-full overflow-hidden rounded-t-3xl md:h-80 lg:h-auto  lg:rounded-tr-none">
               <Image
                 className=" relative -top-[200px] w-full object-cover lg:-top-[0px] "
-                src={"/about-me/1.jpg"}
+                src={"/about-me/2.jpg"}
                 alt="profile photo in air force"
                 width={1000}
                 height={1000}
