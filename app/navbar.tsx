@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 import LinkedinLogo from "../public/linkedin.svg";
 import GithubLogo from "../public/github.svg";
