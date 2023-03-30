@@ -10,7 +10,7 @@ function PhotoCollage() {
               <Image
                 className=" relative -top-[200px] w-full object-cover lg:-top-[0px] "
                 src={"/about-me/1.jpg"}
-                alt="profile photo in Air Force"
+                alt="profile photo in air force"
                 width={1000}
                 height={1000}
               />
