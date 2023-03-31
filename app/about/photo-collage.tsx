@@ -19,7 +19,7 @@ function PhotoCollage() {
               <Image
                 className=" relative  -top-[50px] w-full object-cover"
                 src={"/about-me/soldering.jpeg"}
-                alt="placeholder for image"
+                alt="Jaeheon solering"
                 width={1000}
                 height={1000}
               />
@@ -30,7 +30,7 @@ function PhotoCollage() {
               <Image
                 className=" relative -top-[250px] w-full object-cover sm:-top-[350px] md:-top-[450px] lg:-top-[350px] "
                 src={"/about-me/couple.jpeg"}
-                alt="placeholder for image"
+                alt="Maleea and Jae in a forest"
                 width={1000}
                 height={1000}
               />
@@ -39,7 +39,7 @@ function PhotoCollage() {
               <Image
                 className="relative -top-[250px] w-full object-cover sm:-top-[350px]  md:-top-[450px] lg:-top-[0px] "
                 src={"/about-me/hiking-with-camera.jpeg"}
-                alt="placeholder for image"
+                alt="Jaeheon with a camera sitting in a rock"
                 width={1000}
                 height={1000}
               />
