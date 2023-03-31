@@ -100,7 +100,7 @@ function OnTheSide() {
             Playing video games
           </h3>
           <p className=" mt-10 mb-4 text-xl text-gray-500">
-            As an avide gamer, I'm always on the lookout for new titles that
+            As an avid gamer, I'm always on the lookout for new titles that
             offer engaging gameplay and interesting storylines. While I enjoy
             many different types of games.
           </p>
