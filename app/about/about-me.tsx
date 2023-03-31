@@ -2,7 +2,7 @@ import AngleRight from "../../public/angle-right-solid.svg";
 
 function AboutMe() {
   return (
-    <div className=" mt-50 relative mx-auto mb-40 mt-6 px-4">
+    <div className=" mt-50 relative mx-auto  mt-6 px-4">
       <div className="mx-auto mt-5 flex max-w-xl flex-col px-4 md:max-w-2xl lg:max-w-4xl lg:flex-row">
         <div className=" pr-4 md:pr-10">
           <h1 className=" mb-4 text-4xl font-bold text-gray-700  ">About me</h1>

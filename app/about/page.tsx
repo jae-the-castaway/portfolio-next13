@@ -13,7 +13,7 @@ export default function About() {
       <Navbar />
       <AboutMe />
       <PhotoCollage />
-      <div className="divider-vertical md:mt-64 lg:mt-32 mt-32 "></div>
+      <div className="divider-vertical md:mt-64 lg:mt-32 "></div>
       <div className="mx-4 flex">
         <div className=" mx-auto flex h-36 border-l-4 border-emerald-700">
           <div className="justify-cente mb-6 flex flex-col px-4">

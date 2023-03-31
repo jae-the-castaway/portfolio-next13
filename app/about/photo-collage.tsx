@@ -2,11 +2,11 @@ import Image from "next/image";
 
 function PhotoCollage() {
   return (
-    <div className="mx-auto mt-6 px-4 pt-10">
+    <div className="mx-auto mt-6 px-4 pt-10 md:mt-56 lg:mt-24 ">
       <div className="">
         <div className="mx-auto flex h-[900px] max-w-7xl flex-col justify-center gap-3 md:mt-10 lg:mt-0 lg:flex-row">
           <div className="flex flex-col  justify-center gap-3">
-            <div className=" h-64 w-full overflow-hidden rounded-t-3xl md:h-80 lg:h-auto  lg:rounded-tr-none">
+            <div className=" h-48 w-full overflow-hidden rounded-t-3xl md:h-80 lg:h-auto  lg:rounded-tr-none">
               <Image
                 className=" relative -top-[200px] w-full object-cover lg:-top-[0px] "
                 src={"/static/1.jpg"}
@@ -15,7 +15,7 @@ function PhotoCollage() {
                 height={200}
               />
             </div>
-            <div className=" h-64 overflow-hidden  md:h-80 lg:h-auto lg:rounded-bl-3xl">
+            <div className="h-48 overflow-hidden  md:h-80 lg:h-auto lg:rounded-bl-3xl">
               <Image
                 className=" relative  -top-[50px] w-full object-cover"
                 src={"/about-me/soldering.jpeg"}
@@ -26,7 +26,7 @@ function PhotoCollage() {
             </div>
           </div>
           <div className="flex flex-col justify-center gap-3 lg:h-auto">
-            <div className=" h-64 overflow-hidden  md:h-80  lg:rounded-tr-3xl">
+            <div className=" h-48 overflow-hidden  md:h-80  lg:rounded-tr-3xl">
               <Image
                 className=" relative -top-[250px] w-full object-cover sm:-top-[350px] md:-top-[450px] lg:-top-[350px] "
                 src={"/about-me/couple.jpeg"}
@@ -35,7 +35,7 @@ function PhotoCollage() {
                 height={1000}
               />
             </div>{" "}
-            <div className=" lg:round h-64 overflow-hidden rounded-b-3xl md:h-80 lg:h-auto lg:rounded-bl-none ">
+            <div className="h-48 overflow-hidden rounded-b-3xl md:h-80 lg:h-auto lg:rounded-bl-none ">
               <Image
                 className="relative -top-[250px] w-full object-cover sm:-top-[350px]  md:-top-[450px] lg:-top-[0px] "
                 src={"/about-me/hiking-with-camera.jpeg"}
