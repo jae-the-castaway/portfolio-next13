@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { compareDesc, format, parseISO } from "date-fns";
-import { allPosts, Post } from "contentlayer/generated";
+import { allBlogs, Blog } from "contentlayer/generated";
 
 export const metadata: Metadata = {
   title: "Blog",
   description: "Read my thoughts on software development, design, and more.",
 };
 
-function PostCard(post: Post) {
+function PostCard(post: Blog) {
   return (
     <div className="mb-8">
       <h2 className="mb-1 text-xl">
@@ -24,14 +24,14 @@ function PostCard(post: Post) {
       </time>
       <div
         className="text-sm [&>*:last-child]:mb-0 [&>*]:mb-3"
-        dangerouslySetInnerHTML={{ __html: post.body.html }}
+        dangerouslySetInnerHTML={{ __html: post.summary }}
       />
     </div>
   );
 }
 
 export default function Home() {
-  const posts = allPosts.sort((a, b) =>
+  const posts = allBlogs.sort((a, b) =>
     compareDesc(new Date(a.date), new Date(b.date))
   );
 
